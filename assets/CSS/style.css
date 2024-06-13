@@ -1,43 +1,94 @@
-*,
-*:before,
-*:after {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  background-color: rgba(209, 211, 225, 0.125);
+  color: black;
 }
 
-html {
-  height: 100%;
+.dark-mode {
+  background-color: rgb(178, 175, 175);
+  color: white;
+  border: white;
 }
 
-body {
-  min-height: 100%;
-  line-height: 1;
-  font-family: sans-serif;
+header {
+  border-bottom: 3px solid black;
+  background-color: #9098a9;
+  padding: 1em;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(193, 183, 183);
+  margin-bottom: 2px;
 }
 
-​h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
+main {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100vh;
 }
 
-​input,
-select,
-option,
-optgroup,
-textarea,
-button,
-pre,
-code {
-  font-size: 100%;
-  font-family: inherit;
+#form-section {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 1px;
 }
 
-​ol,
-ul {
-  list-style: none;
+#circle-left {
+  padding-top: 80px;
+  padding-right: 20px;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1px;
+}
+
+#circle {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#dfe2ee, #101e36);
+  color: white;
+}
+
+button {
+  margin-left: 20px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  background-color: #9098a9;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  display: flex;
+}
+
+button:hover {
+  background-color: #9098a9;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #282c34;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p a {
+  background-color: aliceblue;
+  text-decoration: none;
+  color: gray;
 }

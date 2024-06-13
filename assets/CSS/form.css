@@ -1,0 +1,26 @@
+section {
+    padding: 20px;
+  }
+  
+  header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h2 {
+    border-bottom: solid 1px black;
+  }
+  
+  article {
+    border: solid 2px black;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10 px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    border-top: solid 3px black;
+  }
+  
