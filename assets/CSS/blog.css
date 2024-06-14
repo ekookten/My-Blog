@@ -2,12 +2,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgba(241, 241, 246, 0.125);
+  background-color: rgba(209, 211, 225, 0.125);
   color: black;
 }
 
 .dark-mode {
-  background-color: rgb(18, 14, 14);
+  background-color: rgb(59, 59, 59);
   color: rgb(26, 18, 18);
   border: white;
 }
@@ -24,6 +24,18 @@ header {
 
 main {
   padding: 20px;
+}
+
+button#togglebutton {
+  position: absolute;
+  top: 10px; /* Adjust this value to position vertically */
+  right: 10px; /* Adjust this value to position horizontally */
+  padding: 0.5em 1em;
+  cursor: pointer;
+  background-color: #9098a9;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
 }
 
 footer {
@@ -48,9 +60,20 @@ article {
   margin: 10px 0;
   background-color: #f5f5f5;
   min-width: 1000px;
+  border-radius: 30px;
+}
+
+article h2 {
+  border-bottom: 2px solid black; /* Adds a line under the title */
+  padding-bottom: 5px; /* Adds space between the title text and the line */
+  margin-bottom: 10px; /* Adjust the space below the line */
 }
 
 blockquote {
   font-style: italic;
   margin: 0;
+}
+
+article blockquote {
+  font-family: "Arial", sans-serif; /* Set your desired font-family */
 }

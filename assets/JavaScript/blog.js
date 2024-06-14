@@ -40,7 +40,8 @@ function goBack() {
   window.location.href = "index.html";
 }
 
-getLocalStorage();
+// getLocalStorage();
+//Calls getLocalStorage() to ensure local storage is accessed (although this call alone is redundant here since renderBlogList also calls getLocalStorage).
 renderBlogList();
 
 backButton.addEventListener("click", goBack);
