@@ -5,3 +5,5 @@ I have created an engaging landing page for my blog, featuring a form for submit
 
 Instructions:
 Navigate to the website and fill out the form on the landing page. If any fields are left incomplete, an alert will prompt you to provide the missing information before proceeding. After submitting the form, you can view your blog post on the subsequent page. The toggle switch in the top left corner allows you to effortlessly switch between dark and light modes to suit your preference. 
+
+Deployment link: https://ekookten.github.io/My-Daily-Blog/
